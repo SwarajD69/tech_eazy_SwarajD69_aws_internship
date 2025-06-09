@@ -1,0 +1,47 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.backup
+*.tfvars
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Sensitive variable files
+*.pem
+*.key
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+output.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node or Python if used in conjunction
+node_modules/
+__pycache__/
+*.py[cod]
+
+# GitHub-specific
+.github/
+
+# Misc
+*.bak
+*.tmp
+
+#cmd
+cdm.md
